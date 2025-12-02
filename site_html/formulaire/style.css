@@ -1,0 +1,9 @@
+.hide {
+    display: none;
+}
+label {
+    display: block;
+}
+li {
+    display: inline;
+}

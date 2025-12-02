@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+        <p>Test <strong>Test</strong> paragraphe 1</p>
+        <p>Test paragraphe 2</p>
+    </section>
+    <form action="" method="post">
+      <p>
+        <label for="prenom">Prénom:</label>
+        <input type="text" name="prenom" id="prenom" placeholder="Prénom" />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+      </p>
+      <p>
+        <label for="mot_de_passe">Mot de passe:</label>
+        <input type="password" name="mot_de_passe" id="mot_de_passe" required />
+      </p>
+      <p>
+        <h2>Choisir votre couleur préférée</h2>
+        <input type="radio" name="couleur" id="rouge" value="Rouge" />
+        <label for="rouge">Rouge</label>
+        <input type="radio" name="couleur" id="bleu" value="Bleu" />
+        <label for="bleu">Bleu</label>
+
+      </p>
+
+        <p>
+        <h2>Sélectionner vos centres d'intérêt</h2>
+        <input type="checkbox" name="interets[]" id="musique" value="Musique" />
+        <label for="musique">Musique</label>
+        <input type="checkbox" name="interets[]" id="cinema" value="Cinéma" />
+        <label for="cinema">Cinéma</label>
+      </p>
+
+      <p>
+        <label for="langue">Langue</label>
+        <select name="langue" id="langue">
+            <option value="fr">Français</option>
+            <option value="en">Anglais</option>
+            <option value="es">Espagnol</option>
+        </select>
+      </p>
+      <p>
+        <label for="bio">Biographie</label>
+        <textarea name="bio" id="bio" cols="40" rows="10"></textarea>
+      </p>
+
+      <button>S'inscrire</button>
+    </form>
+  </body>
+</html>
